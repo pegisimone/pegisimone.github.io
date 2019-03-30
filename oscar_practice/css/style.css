@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Playfair+Display');
+
+*{
+  margin: 0
+  padding: 0
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 15px 60px;
+  align-items: baseline;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding-left: 15px;
+  }
+
+nav ul, nav h1 {
+  width: 50%;
+}
+
+h1 {
+  color: #003bde;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+header {
+  display: flex;
+}
+
+div {
+  background-color: blue;
+  height: 350px;
+  padding: 100px 60px;
+  width: 50%;
+}
+
+div h2 {
+  color: white;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+div button {
+  color: #003bde;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: .3px;
+}
+
+section {
+  text-align: center;
+  padding: 90px 60px;
+}
+
+section p {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+
+section h6 {
+  margin-botton: 15px
+}
+
+footer {
+  display: flex;
+  padding: 30px 60px 60px 60px;
+}
+
+footer li, footer a {
+  color: rgba(122, 131, 142, 0.6);
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer ul, footer a {
+      width: 50%;
+  }
+
+footer ul {
+  display: flex;
+}
+
+footer a {
+  text-align: right;
+}
+
+footer li {
+  padding-right: 15px;
+}
+
+  .btn {
+  border: 1px white;
+  outline: 0;
+  border-radius: 3px;
+  outline: 0;
+  padding: 15px 30px;
+  margin-left: 15px;
+}
+
+#btn-primary {
+  background-color: #003bde;
+  color: white;
+  padding: 10px 15px;
+  margin
+}
+
+#column-one {
+  background-image: url(https://images.unsplash.com/photo-1553532070-2ca3b5876896?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2300&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+#column-two {
+  background-image: url(https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-position: center;
+}
